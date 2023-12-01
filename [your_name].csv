@@ -1,0 +1,2 @@
+question_step_number,model_name,features,model_parameters,preprocessing_methods,accuracy,balance_accuracy
+5.2,logistic_regression,bag of words,default,nothing,0.6437688353128878,<function balanced_accuracy_score at 0x00000181DEE42A70>
