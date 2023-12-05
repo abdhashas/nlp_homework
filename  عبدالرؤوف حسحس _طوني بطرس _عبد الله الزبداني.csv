@@ -1,0 +1,26 @@
+question_step_number,model_name,features,model_parameters,preprocessing_methods,accuracy,balance_accuracy
+5.2,logistic_regression,bag of words,default,nothing,0.6437688353128878,0.6249945192325319
+5.3,logistic_regression,bag of words,default,Removing Links,0.6434142882467647,0.6247697063643611
+5.3,logistic_regression,bag of words,default,ٌRemoving doctors prefix,0.639691544052473,0.6180735566446274
+5.3,logistic_regression,bag of words,default,Removing duplicate letters except alif,0.6353483424924659,0.6191241254584431
+5.3,logistic_regression,bag of words,default,Removing Links,0.6424392838149264,0.6240931361367352
+5.3,logistic_regression,bag of words,default,standardize numbers to specific char,0.6348165218932813,0.6157853154416597
+5.3,logistic_regression,bag of words,default,Removing numbers,0.6348165218932813,0.6160329300852934
+5.3,logistic_regression,bag of words,default,Removing Date and time,0.6217869172132601,0.5997778691628503
+5.3,logistic_regression,bag of words,default,Remove non arabic words,0.6434142882467647,0.6241328648201775
+5.3,logistic_regression,bag of words,default,Remove non arabic words,0.6085800390001773,0.5975748182744917
+5.3,logistic_regression,bag of words,default,stem arabic words,0.5534479702180465,0.5178119101221017
+5.3,logistic_regression,bag of words,default,unify hamzat,0.6403120014181882,0.6200821220162276
+5.3,logistic_regression,bag of words,default,unify Alafat,0.6449211132777877,0.6266058539491752
+5.3,logistic_regression,bag of words,default,remove tatweel,0.6437688353128878,0.6251553168851043
+5.3,logistic_regression,bag of words,default,remove arabic diacritics,0.6421733735153342,0.6232972316135482
+5.3,logistic_regression,bag of words,default,remove spaces with one space,0.6437688353128878,0.6249945192325319
+5.3,logistic_regression,bag of words,default,remove doctore specialization,0.5933345151568871,0.5776312440405513
+5.4,logistic_regression,bag of words,default,callfunction,0.6447438397447262,0.6261459109184784
+5.6,logistic_regression,TF-IDF with set transactions,default,callfunction,0.7072327601489098,0.6942656779260612
+7.1.1,Deep Neural Network,BOW,default,callfunction,0.5974118113517761,3.011813163757324
+7.1.2,Deep Neural Network,TF-IDF,default,callfunction,0.6799326539039612,1.5787923336029053
+7.2.2,CNN,embedding,trainable=True,,0.6799326539039612,1.5787923336029053
+7.2.3,CNN,embedding,editing with running,,0.4026768207550049,1.8457175493240356
+7.2.4,CNN,embedding from net,default,,0.3195355534553528,1.8377708196640015
+7.4,CNN,embedding from net,custom function,,0.3195355534553528,1.8377708196640015
